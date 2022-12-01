@@ -80,7 +80,6 @@ public class LoginScreen extends Screen {
         } else {
             usernameField.setValue("");
         }
-
         String defaultPassword = loginProperties.getDefaultPassword();
         if (!StringUtils.isBlank(defaultPassword) && !"<disabled>".equals(defaultPassword)) {
             passwordField.setValue(defaultPassword);
